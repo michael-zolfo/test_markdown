@@ -447,7 +447,7 @@ THese are branding elements outside of interstitial openings, or show specific b
 | metatype | "sonic" |
 | relatedContextName | [ channel ] |
 | relatedContextId | [ show ] |
-| Key: episode; Value: [ epXXX ] |
+| Key: episode; | Value: [ epXXX ] |
 | tags | "SONIC" (required) |
 
 This tag above represent the following concept:
