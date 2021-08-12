@@ -76,7 +76,7 @@ There are many commonoalities across Apple Music's non-music assets, by using th
 
 #### Opener Interstitials
 
-These are fully produced interstitals that are intended to be used at the opening of a show, or at the opening segemnt of a show. 
+These are fully produced interstitals that are intended to be used at the opening of a show. 
 
 | Field | Value |
 | --- | --- |
@@ -112,7 +112,7 @@ Example Opener Interstitial:
 
 #### Closer Interstitials
 
-These are fully produced interstitals that are intended to be used at the close of a show, or at the closing segemnt of a show. 
+These are fully produced interstitals that are intended to be used at the close of a show. 
 
 | Field | Value |
 | --- | --- |
@@ -190,7 +190,7 @@ These are fully produced interstitials that are intended to be used across one s
 | collection | (optional) |
 | voices | (optional) |
 | relatedContextName | [ channel ] |
-| relatedContenxtId: [ show ] |
+| relatedContenxtId: | [ show ] |
 | tags | "SPECIFIC" (required), "SWEEPER", "FEMALE" |
 
 * SPECIFIC: a required tag that indicates that the interstitial is specific for the show.
@@ -294,8 +294,7 @@ These are dry voice audio assets only with no effects intended to be used on one
 | relatedContextName | [ channel ] |
 | relatedContextId | [ show ] |
 | relatedTrackId: [ track identifier ] |
-| Key: episode; Value: [ epXXX ] |
-| Key: hour; Value: [ YYYYMMDDHH ] | 
+| Key | if episode value [ epXXX ], if hour value [ YYYYMMDDHH] |
 | tags | "BACK" (required), "FRONT (required)", "MALE", "FEMALE" |
 
 The Key Value pairs are used to indiciate the following concepts:
@@ -381,8 +380,7 @@ These are episode specific longer form, pre-produced segments (e.g., a 15-minute
 | voices | (optional) |
 | relatedContextName | [ channel ] |
 | relatedContextId | [ show ] |
-| Key: episode; Value: [ epXXX ] |
-| Key: hour; Value: [ YYYYMMDDHH ] |
+| Key | if episode, value [ epXXX ] if hour, value [ YYYYMMDDHH] |
 | tags | "MALE", "FEMALE" |
 
 The Key Value pairs are used to indiciate the following concepts:
@@ -422,8 +420,7 @@ These are shorter instrumental sound clips with specific audio qualities that ar
 | id | [ contentId ] |
 | relatedContextName | [ channel ] |
 | relatedContextId | [ show ] |
-| Key: episode; Value: [ epXXX ] |
-| Key: hour; Value: [ YYYYMMDDHH ] |
+| Key | if episode, value [ epXXX ], if hour, value [ YYYYMMDDHH] |
 | tags | "BOOM", "WOOSH", "PEAK", "PLATEAU", "DONUT" |
 
 The Key Value pairs are used to indiciate the following concepts:
@@ -463,7 +460,7 @@ Christmas continues to be one of the largest audience and revenue drivers for th
 
 ## Conclusion
 
-After reading through this content tagging recommendation for non-music assets document, The Apple Music Team should hopefully be better equipped with an understanding of the content structure and tagging construct to the SHF process. If there are questions or additions that you feel can be added to the reference document, please be in touch and we can certainly continue to update this document. 
+After reading through this content tagging recommendation for non-music assets document, The Apple Music Team should be better equipped with an understanding of the content structure and tagging construct to the Super Hi-Fi process. If there are questions or additions that you feel can be added to the reference document, please be in touch and we can certainly continue to update this document. 
 
 
 
