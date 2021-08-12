@@ -293,8 +293,8 @@ These are dry voice audio assets only with no effects intended to be used on one
 | voices | (optional) |
 | relatedContextName | [ channel ] |
 | relatedContextId | [ show ] |
-| relatedTrackId: [ track identifier ] |
-| Key | if episode value [ epXXX ], if hour value [ YYYYMMDDHH] |
+| relatedTrackId: | [ track identifier ] |
+| Key | if episode, value [ epXXX ]; if hour, value [ YYYYMMDDHH ] |
 | tags | "BACK" (required), "FRONT (required)", "MALE", "FEMALE" |
 
 The Key Value pairs are used to indiciate the following concepts:
@@ -380,7 +380,7 @@ These are episode specific longer form, pre-produced segments (e.g., a 15-minute
 | voices | (optional) |
 | relatedContextName | [ channel ] |
 | relatedContextId | [ show ] |
-| Key | if episode, value [ epXXX ] if hour, value [ YYYYMMDDHH] |
+| Key | if episode, value [ epXXX ]; if hour, value [ YYYYMMDDHH ] |
 | tags | "MALE", "FEMALE" |
 
 The Key Value pairs are used to indiciate the following concepts:
@@ -420,7 +420,7 @@ These are shorter instrumental sound clips with specific audio qualities that ar
 | id | [ contentId ] |
 | relatedContextName | [ channel ] |
 | relatedContextId | [ show ] |
-| Key | if episode, value [ epXXX ], if hour, value [ YYYYMMDDHH] |
+| Key | if episode, value [ epXXX ]; if hour, value [ YYYYMMDDHH ] |
 | tags | "BOOM", "WOOSH", "PEAK", "PLATEAU", "DONUT" |
 
 The Key Value pairs are used to indiciate the following concepts:
