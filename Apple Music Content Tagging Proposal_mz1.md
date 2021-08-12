@@ -105,7 +105,7 @@ Example Opener Interstitial:
 	"collection": "BPCR004",
 	"voices": "EP and MB",
 	"relatedContextName": "country",
-    "relatedContextId": "backPorchCountryRadio",
+        "relatedContextId": "backPorchCountryRadio",
 	"tags": [ "OPEN", "BED" ]
 }
 ```
@@ -137,7 +137,7 @@ The tags above represent the following concepts:
 	"filename": "IMAGING CLOSE EP146.wav",
 	"metatype": "bookends",
 	"relatedContextName": "hits",
-    "relatedContextId": "rockClassics",
+        "relatedContextId": "rockClassics",
 	"tags": [ "OPEN", "FEMALE" ]
 }
 ```
@@ -206,7 +206,7 @@ These are fully produced interstitials that are intended to be used across one s
 	"collection": "BPCR012",
 	"voices": "Ep",
 	"relatedContextName": "country",
-    "relatedContextId": "backPorchCountryRadio",
+        "relatedContextId": "backPorchCountryRadio",
 	"tags": [ "SPECIFIC", "FEMALE" ]
 }
 ```
@@ -275,7 +275,7 @@ The tags above represent the following concepts:
 	"metatype": "branding",
 	"voices": "Nicole Sky",
 	"relatedContextName": "hits",
-    "relatedContextId": "pureThrowback",
+        "relatedContextId": "pureThrowback",
 	"tags": [ "SPECIFIC", "MALE", "FEMALE" ]
 }
 ```
@@ -317,9 +317,9 @@ The tags above represent the following concepts:
 	"metatype": "voicetrack",
 	"voices": "Nick Hoffman",
 	"relatedContextName": "country",
-    "relatedContextId": "backPorchCountryRadio",
-    "relatedTrackId: "1369348557",
-    "Key": "episode"; "Value": "ep002", 
+        "relatedContextId": "backPorchCountryRadio",
+        "relatedTrackId: "1369348557",
+        "Key": "episode"; "Value": "ep002", 
 	"tags": [ "FRONT", "MALE", "HOST" ]
 }
 ```
@@ -364,7 +364,7 @@ These are instrumental audio clips intended to be used on only one specific show
 	"id": "2d18565001a3420cb70065bff3e1ddae", 
 	"filename": "Bed - Closing Talk Break_Into Not Your Girl.wav",
 	"relatedContextName": "country",
-    "relatedContextId": "theTieraShow"
+        "relatedContextId": "theTieraShow"
 }
 ```
 
@@ -400,8 +400,8 @@ The tags above represent the following concepts:
 	"filename": "Nadeska Lil Nas X INT-.wav",
 	"voices": "Nick Hoffman",
 	"relatedContextName": "one",
-    "relatedContextId": "theNadeskaShow",
-    "Key": "episode"; "Value": "ep029", 
+        "relatedContextId": "theNadeskaShow",
+        "Key": "episode"; "Value": "ep029", 
 	"tags": [ "MALE", "FEMALE" ]
 }
 ```         
